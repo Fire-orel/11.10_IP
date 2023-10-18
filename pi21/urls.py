@@ -20,15 +20,17 @@ from django.http import HttpResponse
 from django.template.loader import render_to_string
 from django.views.generic import TemplateView
 
-def index(request):
-    return HttpResponse(render_to_string("index.html",context={"Name":"P"}))
+
 
 class indexview(TemplateView):
     template_name = "index.html"
-    extra_context = {"Name":"Pi"}
+    # extra_context = {"Name":"Pi"}
+class teacherview(TemplateView):
+    template_name="teacher.html"
 
 
 urlpatterns = [
     path('',indexview.as_view()),
+    path('teacher/',teacherview.as_view()),
     path('admin/', admin.site.urls),
 ]
