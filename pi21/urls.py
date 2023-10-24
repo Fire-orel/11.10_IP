@@ -19,18 +19,30 @@ from django.urls import path
 from django.http import HttpResponse
 from django.template.loader import render_to_string
 from django.views.generic import TemplateView
+import json
 
+fail=open("./bd.json")
+data=json.load(fail)
 
 
 class indexview(TemplateView):
     template_name = "index.html"
-    # extra_context = {"Name":"Pi"}
+
+
+
 class teacherview(TemplateView):
     template_name="teacher.html"
+
+
+class courses(TemplateView):
+    template_name="courses.html"
+    extra_context=data["course_mas"]
+
 
 
 urlpatterns = [
     path('',indexview.as_view()),
     path('teacher/',teacherview.as_view()),
+    path('courses/',courses.as_view()),
     path('admin/', admin.site.urls),
 ]
