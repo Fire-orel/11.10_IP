@@ -4,7 +4,115 @@
             "course_img":"project-1.jpg",
             "course_zag":"Web Master",
             "course_text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        },
+        {
+            "course_img":"project-2.jpg",
+            "course_zag":"Business &amp; Accounting",
+            "course_text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        },
+        {
+            "course_img":"project-3.jpg",
+            "course_zag":"Science &amp; Technology",
+            "course_text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        },
+        {
+            "course_img":"project-4.jpg",
+            "course_zag":"Health &amp; Psychology",
+            "course_text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
         }
+    ],
+    "teacher_mas":[
+        {
+            "img":"staff-1.jpg",
+            "name":"Mike Smith",
+            "text":"Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi."
+
+        },
+        {
+            "img":"staff-3.jpg",
+            "name":"Mike Smith",
+            "text":"Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi."
+
+        },
+        {
+            "img":"staff-3.jpg",
+            "name":"Mike Smith",
+            "text":"Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi."
+
+        },
+        {
+            "img":"staff-1.jpg",
+            "name":"Mike Smith",
+            "text":"Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi."
+
+        },
+        {
+            "img":"staff-1.jpg",
+            "name":"Mike Smith",
+            "text":"Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi."
+
+        },
+        {
+            "img":"staff-1.jpg",
+            "name":"Mike Smith",
+            "text":"Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi."
+
+        },
+        {
+            "img":"staff-3.jpg",
+            "name":"Mike Smith",
+            "text":"Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi."
+
+        },
+        {
+            "img":"staff-2.jpg",
+            "name":"Mike Smith",
+            "text":"Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi."
+
+        }
+    ],
+    "about":[
+        {
+            "icon":"icon-shop",
+            "name":"Business",
+            "text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        },
+        {
+            "icon":"icon-heart4",
+            "name":"Health &amp; Psychology",
+            "text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        },
+        {
+            "icon":"icon-banknote",
+            "name":"Accounting",
+            "text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        },
+        {
+            "icon":"icon-lab2",
+            "name":"Science &amp; Technology",
+            "text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        },
+        {
+            "icon":"icon-photo",
+            "name":"Art &amp; Media",
+            "text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        },
+        {
+            "icon":"icon-home-outline",
+            "name":"Real Estate",
+            "text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        },
+        {
+            "icon":"icon-bubble3",
+            "name":"Language",
+            "text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        },
+        {
+            "icon":"icon-world",
+            "name":"Web &amp; Programming",
+            "text":"Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius."
+        }
+
 
     ]
 }

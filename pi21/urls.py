@@ -23,6 +23,8 @@ import json
 
 fail=open("./bd.json")
 data=json.load(fail)
+fail.close()
+
 
 
 class indexview(TemplateView):
@@ -32,11 +34,17 @@ class indexview(TemplateView):
 
 class teacherview(TemplateView):
     template_name="teacher.html"
+    extra_context=data
 
 
 class courses(TemplateView):
     template_name="courses.html"
-    extra_context=data["course_mas"]
+    extra_context=data
+
+class about(TemplateView):
+    template_name="about.html"
+    extra_context=data
+
 
 
 
@@ -44,5 +52,6 @@ urlpatterns = [
     path('',indexview.as_view()),
     path('teacher/',teacherview.as_view()),
     path('courses/',courses.as_view()),
+    path('about/', about.as_view()),
     path('admin/', admin.site.urls),
 ]
